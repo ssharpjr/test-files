@@ -9,7 +9,7 @@ INSTALLER="installer.sh"
 
 
 # Install app
-URL="${GIT_URL}/${GIT_ACCT}/${REPO}/${GIT_BRANCH}/${INSTALLER}"
+URL=${GIT_URL}/${GIT_ACCT}/${REPO}/${GIT_BRANCH}/${INSTALLER}
 echo ${URL}
 curl -SLs ${URL} | bash
 
